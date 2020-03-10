@@ -63,8 +63,8 @@ h3 {
     margin: 10px;
     border-bottom: 1px solid black;
 }
-/* ridemensionamento delle righe mail */
-.mail{
+/* ridemensionamento delle caselle di checkbox */
+input{
 width: 20px;
 height: 20px;
 margin: 10px 1px 10px 10px;
@@ -74,13 +74,21 @@ p{
     display: inline-block;
     font-size: 18px;
 }
-
+/* linea di separazione tra le varie mail */
+.mail {
+    border-bottom: 1px solid black;
+}
+/* style righe mail */
 .oggetto {
     font-family: 'Create Round', sans-serif;
     background-color: white;
     margin: 1px 10px 1px 10px
 }
-
+/* classe open per simulare la selezione di una mail */
+.open {
+    background-color: lightblue;
+}
+/* link esterni */
 footer{
     border-top: 1px solid black;
     margin: 10px;
