@@ -1,0 +1,89 @@
+
+/* formattazione iniziale della pagina per annullare tutti i valori di defaul del browser */
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin:auto;
+    background-color: lightgrey;
+    width: 50%;
+}
+
+header {
+    margin: 10px 10px;
+
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Sen', sans-serif;
+}
+
+header img {
+    width: 80px;
+    vertical-align: middle;
+}
+
+#ricerca {
+    display: inline-block;
+}
+/* valori box di ricerca */
+#box {
+    width: 600px;
+    height: 50px;
+    font-family: 'Sen', sans-serif;
+    font-size: 20px;
+}
+/* valori bottone di ricerca */
+button {
+    height: 50px;
+    width: 70px;
+    font-family: 'Sen', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+#number{
+    background-color: orange;
+    font-size: 26px;
+    border-radius: 21px;
+     /*angolatura bordo calcolata per fare in modo che risultasse un cerchio attorno al numero. Il valore è stato ricavato dimezzando la dimensione del valore di font-size e sommando il valore del padding - che equivale al 50% della dimensione totale  */
+    margin: 10px;
+    padding: 8px;
+}
+
+#unread-messages {
+    font-family: 'Create Round', sans-serif;
+    padding-bottom: 8px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+/* ridemensionamento delle righe mail */
+.mail{
+width: 20px;
+height: 20px;
+margin: 10px 1px 10px 10px;
+}
+/* blocco inline del tag p per mantenerlo affiancato alla checkbox */
+p{
+    display: inline-block;
+    font-size: 18px;
+}
+
+.oggetto {
+    font-family: 'Create Round', sans-serif;
+    background-color: white;
+    margin: 1px 10px 1px 10px
+}
+
+footer{
+    border-top: 1px solid black;
+    margin: 10px;
+    padding-top: 8px;
+    text-align: center;
+}
